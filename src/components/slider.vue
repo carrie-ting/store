@@ -37,23 +37,23 @@ export default{
             },
 		    sliderList:[
 		    {
-		    	url:'store/static/img/slider/01.jpg',
+		    	url:'static/img/slider/01.jpg',
 		    	desc:''
 		    },
 		    {
-		    	url:'store/static/img/slider/02.jpg',
+		    	url:'static/img/slider/02.jpg',
 		    	desc:''
 		    },
 		    {
-		    	url:'store/static/img/slider/03.jpg',
+		    	url:'static/img/slider/03.jpg',
 		    	desc:''
 		    },
 		    {
-		    	url:'store/static/img/slider/04.jpg',
+		    	url:'static/img/slider/04.jpg',
 		    	desc:''
 		    },
 		    {
-		    	url:'store/static/img/slider/05.jpg',
+		    	url:'static/img/slider/05.jpg',
 		    	desc:''
 		    }
 		    ]
