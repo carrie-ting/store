@@ -1,5 +1,7 @@
 <template lang="html">
   <div class="container">
+    <weixin></weixin>
+    <index-menu></index-menu>
 	<div class="first-floor clearfix">
 		<div class="first-left">
 			<h1>澳洲奶粉</h1>
@@ -240,6 +242,8 @@
 
 <script>
 import BFooter from './BFooter';
+import IndexMenu from './IndexMenu';
+import weixin from './weixin';
 export default {
   name: 'index',
   data () {
@@ -563,6 +567,8 @@ export default {
   },
   components:{
     BFooter,
+    IndexMenu,
+    weixin
   }
 }
 </script>
