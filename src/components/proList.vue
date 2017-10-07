@@ -1,5 +1,6 @@
 <template lang="html">
   <div class="container">
+  <weixin></weixin>
     <div class="top-logo clearfix">
       <div class="logo-icon"></div>
       <div class="search-content">
@@ -15,16 +16,19 @@
       <div class="kinds">
         <left-menu></left-menu>
       </div>
-      <div class="slider-container">
-        <slider></slider>
+      <div class="prolist-container">
+        <list-info></list-info>
       </div>
     </div>
+    <b-footer></b-footer>
   </div>
 </template>
 
 <script>
-import slider from './slider';
+import BFooter from './BFooter';
 import LeftMenu from './LeftMenu';
+import listInfo from './listInfo';
+import weixin from './weixin';
 import BMenu from './BMenu';
 export default {
   name: 'IndexMenu',
@@ -34,8 +38,10 @@ export default {
     }
   },
   components:{
+    BFooter,
     LeftMenu,
-    slider,
+    listInfo,
+    weixin,
     BMenu
   }
 }
@@ -92,15 +98,25 @@ export default {
   text-align: left;
   margin: 10px auto 0 auto;
 }
-
+.menu ul{
+  display: flex;
+  display:-webkit-flex;
+  width: 100%;
+}
+.menu ul li {
+  flex:1;
+  height: 40px;
+  line-height: 40px;
+  font-size: 16px;
+  font-weight: 700;
+  color: #555;
+}
 .kinds{
   float: left;
 }
 
-.slider-container{
+.prolist-container{
   width:100%;
-  height: 500px;
-  margin-bottom: 10px;
   padding-left: 225px;
   box-sizing: border-box;
 }
