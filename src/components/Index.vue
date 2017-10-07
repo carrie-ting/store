@@ -1,4 +1,4 @@
-<template>
+<template lang="html">
   <div class="container">
 	<div class="first-floor clearfix">
 		<div class="first-left">
@@ -223,10 +223,23 @@
 				</li>
 		</ul>
 	</div>
+    <div class="tip">
+        <div class="tip-left">
+            <p>注册及下单流程：</p>
+            <p>请直接加客服微信询价下单</p>
+        </div>
+        <div class="tip-right">
+            <p>备注：</p>
+            <p>1：客服微信号：Superme0009，公司电话：0731089440.地址：Unit 1/33-37 Rosedale St,Coopersplain.QLD Australia.</p>
+            <p>2：工作时间：每周7天营业，早上10点到晚上7点。工作时间以外下单，客服第二天上班会继续更进。</p>
+        </div>
+    </div>
+    <b-footer></b-footer>
   </div>
 </template>
 
 <script>
+import BFooter from './BFooter';
 export default {
   name: 'index',
   data () {
@@ -547,6 +560,9 @@ export default {
     getData () {
 
     }
+  },
+  components:{
+    BFooter,
   }
 }
 </script>
@@ -863,6 +879,30 @@ ul,li{
     background-color: #bb425a;
 }
 
+
+.tip{
+    width: 100%;
+    height: 100px;
+    padding-top:30px;
+    margin-top:50px;
+    border-top: 1px solid #f4f4f4;
+}
+.tip p{
+    color: #333;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: left;
+    text-indent: 25px;
+}
+.tip-left{
+    float: left;
+    width:49%;
+    margin-right:2%;
+}
+.tip-right{
+    float: right;
+    width: 49%;
+}
 
 
 
