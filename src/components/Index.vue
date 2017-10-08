@@ -610,6 +610,10 @@ ul,li{
     background-color: #faf5fb;
 }
 .first-left-title {
+    position: absolute;
+    top:0;
+    left:0;
+    z-index:2;
     padding: 20px 5px 0px 25px;
 }
 .first-left-title h2 {
@@ -628,6 +632,10 @@ ul,li{
     color: #e77551;
 }
 .first-right-title {
+    position: absolute;
+    top:0;
+    left:0;
+    z-index:2;
     padding: 20px 5px 0px 25px;
 }
 .title2 {
@@ -649,14 +657,37 @@ ul,li{
     color: #e6b849;
 }
 .first-left-img{
-    // display: block;
     position: absolute;
     bottom:0;
     right: 0;
+    z-index:1;
     max-width: 100%;
     max-height: 100%;
 }
+
+.color3 li .first-left-img {
+    max-width: 70%;
+    max-height: 70%;
+}
+.color3 .list .first-left-img{
+    max-width: 100%;
+    max-height: 100%;
+}.color3 .list2 .first-left-img{
+    max-width: 100%;
+    max-height: 100%;
+}
+.four-left .first-left-img{
+    max-width: 80%;
+    max-height: 80%;
+}.four-right .first-left-img{
+    max-width: 80%;
+    max-height: 80%;
+}
 .list-title {
+    position: absolute;
+    top:0;
+    left:0;
+    z-index:2;
     padding: 20px 5px 0px 25px;
 }
 .list-title h2 {
@@ -672,6 +703,10 @@ ul,li{
     color: #75873d;
 }
 .list2-title {
+    position: absolute;
+    top:0;
+    left:0;
+    z-index:2;
     padding: 20px 5px 0px 25px;
 }
 .list2-title h2 {
@@ -686,6 +721,10 @@ ul,li{
     text-align: left;
     color: #986545;
 }.list3-title {
+    position: absolute;
+    top:0;
+    left:0;
+    z-index:2;
     padding: 20px 5px 0px 25px;
 }
 .list3-title h2 {
@@ -700,6 +739,10 @@ ul,li{
     text-align: left;
     color: #8e4b74;
 }.list4-title {
+    position: absolute;
+    top:0;
+    left:0;
+    z-index:2;
     padding: 20px 5px 0px 25px;
 }
 .list4-title h2 {
@@ -714,6 +757,10 @@ ul,li{
     text-align: left;
     color: #8e4b74;
 }.list5-title {
+    position: absolute;
+    top:0;
+    left:0;
+    z-index:2;
     padding: 20px 5px 0px 25px;
 }
 .list5-title h2 {
