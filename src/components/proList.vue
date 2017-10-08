@@ -2,7 +2,7 @@
   <div class="container">
   <weixin></weixin>
     <div class="top-logo clearfix">
-      <div class="logo-icon"></div>
+      <div class="logo-icon" @click="toIndex()"></div>
       <div class="search-content">
         <div class="search-input">
           <input type="search" placeholder="可以模糊搜索哦，如：swisse 维生素 女">
@@ -35,6 +35,13 @@ export default {
   data () {
     return {
 
+    }
+  },
+  methods:{
+    toIndex(){
+      this.$router.push({
+        path: '/'
+      });
     }
   },
   components:{
