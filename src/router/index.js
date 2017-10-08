@@ -21,6 +21,10 @@ export default new Router({
       path: '/detail',
       name: 'detail',
       component: detail
+    },{
+      path: '*',
+      name: 'index',
+      component: Index
     }
   ]
 })
