@@ -17,7 +17,7 @@
 		methods:{
       toList(){
         this.$router.push({
-            path: '/list'
+            name:'list'
         })
     }
 		}

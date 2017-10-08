@@ -31,7 +31,7 @@
 		methods:{
 			toDetail(){
 				this.$router.push({
-					path:'/detail'
+					name:'detail'
 				})
 			}
 		}

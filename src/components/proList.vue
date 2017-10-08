@@ -40,7 +40,7 @@ export default {
   methods:{
     toIndex(){
       this.$router.push({
-        path: '/'
+        name:'index'
       });
     }
   },
